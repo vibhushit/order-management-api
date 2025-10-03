@@ -1,9 +1,5 @@
-mod db;
-mod handlers;
-mod models;
-
 use actix_web::{App, HttpServer};
-use db::Database;
+use order_management_api::{db::Database, handlers};
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {

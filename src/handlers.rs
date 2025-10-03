@@ -1,6 +1,6 @@
 use crate::db::Database;
 use crate::models::{CreateOrderRequest, Order, UpdateOrderStatusRequest};
-use actix_web::{delete, get, post, put, web, HttpResponse, Responder};
+use actix_web::{HttpResponse, Responder, delete, get, post, put, web};
 use uuid::Uuid;
 
 #[post("/orders")]
