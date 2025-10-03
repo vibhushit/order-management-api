@@ -24,6 +24,7 @@ cargo run
 - `DELETE /orders/{id}` - Delete order
 
 ## Testing
+
 ```bash
 cargo test
 ```
